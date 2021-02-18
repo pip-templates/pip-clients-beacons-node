@@ -2,9 +2,9 @@
 /** @hidden */
 const _ = require('lodash');
 /** @hidden */
-let services = require('../../../../src/protos/beacons_v1_grpc_pb');
+let services = require('../../../src/protos/beacons_v1_grpc_pb');
 /** @hidden */
-let messages = require('../../../../src/protos/beacons_v1_pb');
+let messages = require('../../../src/protos/beacons_v1_pb');
 
 import { FilterParams } from 'pip-services3-commons-node';
 import { PagingParams } from 'pip-services3-commons-node';

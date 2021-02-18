@@ -2,10 +2,13 @@
 /** @hidden */
 const _ = require('lodash');
 /** @hidden */
-let messages = require('../../../../src/protos/beacons_v1_pb');
+let messages = require('../../../src/protos/beacons_v1_pb');
 
 import { DataPage } from 'pip-services3-commons-node';
 import { PagingParams } from 'pip-services3-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
+import { StringConverter } from 'pip-services3-commons-node';
+import { DateTimeConverter } from 'pip-services3-commons-node';
 import { ErrorDescriptionFactory } from 'pip-services3-commons-node';
 import { ErrorDescription } from 'pip-services3-commons-node';
 import { ApplicationExceptionFactory } from 'pip-services3-commons-node';
